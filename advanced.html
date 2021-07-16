@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- title of page and include stylesheet -->
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- navigation -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Search</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- logo image -->
+        <img id="logo" src="image/logo.png" alt="google logo">
+
+        <h1>Advanced search</h1>
+        <div id="line"></div>
+
+        <!-- form with 4 input fields and a submit button -->
+        <form action="https://google.com/search">
+            <h2>Find pages with...</h2>
+            <div>
+                <label>All these words:</label>
+                <input class="advanced" type="text" name="as_q">
+            </div>
+            <div>
+                <label>This exact word or phase:</label>
+                <input class="advanced" type="text" name="as_epq">
+            </div>
+            <div>
+                <label>Any of these words:</label>
+                <input class="advanced" type="text" name="as_oq">
+            </div>
+            <div>
+                <label>None of these words:</label>
+                <input class="advanced" type="text" name="as_eq">
+            </div>
+
+            <input id="submit" type="submit" value="Google Search">
+        </form>
+    </main>
+</body>
+
+</html>

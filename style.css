@@ -1,0 +1,128 @@
+/* General */
+body {
+    font-family: arial, sans-serif;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 14px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Logo image */
+img {
+    margin: 50px 38% 0px;
+    width: 25%;
+    height: 10%;
+}
+
+#logo{
+    margin: 1px 2% 20px;
+    width: 120px;
+}
+
+/* Input user */
+.input {
+    background-image: url('image/zoek.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+    border: 2px solid lightgray;
+    border-radius: 24px;
+    margin: 15px 30% 0px 30%;
+    width: 40%;
+    height: 35px;
+    text-align: left;
+    padding-left: 35px;
+}
+
+.advanced {
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
+    margin-bottom: 15px;
+    margin-left: 5%;
+    width: 300px;
+    text-align: left;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+/* Submit button */
+input[type=submit] {
+    width: 150px;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    min-width: 54px;
+    color: #3c4043;
+    margin-top: 30px;
+    background-color: #f8f9fa;
+}
+
+#google-submit {
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+#submit {
+    background-color: #4d90fe;
+    color: white;
+    margin-left: 34%;
+    margin-top: 15px;
+    border-radius: 2px;
+}
+
+#first {
+    margin-left: 39%;
+    margin-right: 1%;
+}
+
+/* Advanced header */
+h1 { 
+    font-size: 20px;
+    min-height: 42px;
+    font-weight: 500;
+    margin-left: 5%;
+    color: #d93025;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    margin-left: 5%;
+    color: #333;
+    margin-top: 30px;
+}
+
+#line{
+    border-bottom: 1px solid #ebebeb;;
+}
+
+/* Advanced layout */
+div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 170px;
+    font-weight: 500;
+    text-align: left;
+    font-size: 13px;
+    margin-left: 5%;
+}
